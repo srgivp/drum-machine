@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  position: relative;
+  background-color: rgb(248, 245, 245);
+  height: 100vh;
+  overflow: hidden;
+}
+#forReactContent {
+  display: flex;
+  align-items: center;
+}
+#drum-machine {
+  width: 62vh;
+  max-height: 100vh;
+  margin: auto;
+}
+#display {
+  text-align: center;
+  color: transparent;
+}
+#drum-pads-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+  color: transparent;
+}
+.drum-pad-content {
+  user-select: none;
+}
+#VinylK3-Perc01 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580315932/486-4865489_circle-organism-spiral-cartoon-drums-looney-tunes-hd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#VinylK3-Perc01::before {
+  padding-top: 100%;
+  content: "";
+  overflow: hidden;
+}
+#ElecK04-HfHat {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580315953/135-1354159_circle-hd-png-download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#VinylK1-OpHat {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580315943/40-402075_zildjian-cymbal-clock-hd-png-download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Kurz03-SdSt {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580316000/149-1492395_snare-drum-png-circle-transparent-png.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#VinylK2-Snr01 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580316030/472-4725620_powersonic-coated-image-remo-powersonic-bass-drum-head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#VinylK2-Snr01::after {
+  padding-top: 100%;
+  content: "";
+  float: left;
+}
+#ElecK05-Snr03 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580315080/149-1492541_remo-ambassador-snare-side-hd-png-download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#ElecK04-Snr03 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580387690/446-4462682_ambassador-renaissance-image-black-bass-drum-head-hd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 36%;
+}
+#ElecK04-Snr03::after {
+  padding-top: 70% !important;
+  content: "";
+  float: left;
+}
+#VinylK1-Kick03 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580316055/135-1354045_logitech-g-pro-hero-gaming-mouse-hd-png.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 28%;
+}
+#VinylK1-Kick03::after {
+  padding-top: 105%;
+  content: "";
+  float: left;
+}
+#VinylK2-Tom02 {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580316064/135-1354170_drumhead-hd-png-download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 36%;
+}
+#pedals {
+  background-image: url(https://res.cloudinary.com/dmujv3o3b/image/upload/v1580316737/385-3850825_pdp-502-double-bass-drum-pedal-picture-bass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#pedals::before {
+  padding-top: 56.25%;
+  content: "";
+  float: left;
+}
+#attribution {
+  font-size: 70%;
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}
