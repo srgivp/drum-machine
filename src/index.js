@@ -84,6 +84,7 @@ class Project extends React.Component {
     this.setState({
       audioOnDisplay: document.getElementById(keyValue).parentNode.id
     });
+    document.getElementById(keyValue).load();
     document.getElementById(keyValue).play();
   }
   drumPadsGenerator() {
